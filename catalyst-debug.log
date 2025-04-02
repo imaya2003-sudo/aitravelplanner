@@ -1,0 +1,41 @@
+[debug] [2025-04-01T12:20:26.976Z] : 
+[debug] [2025-04-01T12:20:26.978Z] : ----------------------------------------------------------------------
+[debug] [2025-04-01T12:20:26.978Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\imaya\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js serve
+[debug] [2025-04-01T12:20:26.979Z] : CLI Version:  1.17.6
+[debug] [2025-04-01T12:20:26.979Z] : Platform:     win32
+[debug] [2025-04-01T12:20:26.979Z] : Node Version: v23.2.0
+[debug] [2025-04-01T12:20:26.980Z] : Time:         Tue Apr 01 2025 17:50:26 GMT+0530 (India Standard Time)
+[debug] [2025-04-01T12:20:26.980Z] : ----------------------------------------------------------------------
+[debug] [2025-04-01T12:20:26.980Z] : 
+[debug] [2025-04-01T12:20:27.981Z] : > authorizing via signed-in user option
+[debug] [2025-04-01T12:20:27.981Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.webapp.ALL","ZohoCatalyst.pdfshot.execute","ZohoCatalyst.authentication.CREATE"]
+[debug] [2025-04-01T12:20:27.996Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/10785000000010001 
+
+[debug] [2025-04-01T12:20:28.408Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Tue, 01 Apr 2025 12:20:32 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["zalb_3a750b85f1=411f509465b028e7e235eac6930aaab2; Path=/; Secure; HttpOnly","ZD_CSRF_TOKEN=e1eb5990-6520-4219-b763-c75efaba282b;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=e1eb5990-6520-4219-b763-c75efaba282b;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-04-01T12:20:28.413Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/10785000000010001/environment 
+
+[debug] [2025-04-01T12:20:28.489Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Tue, 01 Apr 2025 12:20:32 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["zalb_3a750b85f1=ed010f63633be60a322039283f31a645; Path=/; Secure; HttpOnly","ZD_CSRF_TOKEN=2e460c1a-1706-46c5-8807-97a880d04017;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=2e460c1a-1706-46c5-8807-97a880d04017;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-04-01T12:20:29.273Z] : No basic functions to add
+[info] [2025-04-01T12:20:34.343Z] : [react-plugin]: Starting the development server...
+
+[info] [2025-04-01T12:20:34.345Z] : 
+[info] [2025-04-01T12:20:34.346Z] : i Client[tourista]: Plugin : "zcatalyst-cli-plugin-react" is used for client serve
+[info] [2025-04-01T12:20:34.346Z] : 
+[info] [2025-04-01T12:20:37.407Z] : 
+[info] [2025-04-01T12:20:37.408Z] :  >>>>>>>>>>>>> Web Client <<<<<<<<<<<<
+[info] [2025-04-01T12:20:37.409Z] : i client[tourista]: http://localhost:3000/app/
+[info] [2025-04-01T12:20:37.409Z] : 
+[info] [2025-04-01T12:20:37.928Z] : [react-plugin]: Compiled successfully!
+[info] [2025-04-01T12:20:37.928Z] : [react-plugin]: 
+[info] [2025-04-01T12:20:37.928Z] : [react-plugin]: You can now view tourista in the browser.
+[info] [2025-04-01T12:20:37.929Z] : [react-plugin]: 
+[info] [2025-04-01T12:20:37.929Z] : [react-plugin]:   Local:            http://localhost:3000/app/
+[info] [2025-04-01T12:20:37.929Z] : [react-plugin]:   On Your Network:  http://192.168.43.253:3000/app/
+[info] [2025-04-01T12:20:37.929Z] : [react-plugin]: 
+[info] [2025-04-01T12:20:37.929Z] : [react-plugin]: Note that the development build is not optimized.
+[info] [2025-04-01T12:20:37.930Z] : [react-plugin]: To create a production build, use npm run build.
+[info] [2025-04-01T12:20:37.930Z] : [react-plugin]: 

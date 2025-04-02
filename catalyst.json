@@ -1,0 +1,6 @@
+{
+  "client": {
+    "source": "tourista",
+    "plugin": "zcatalyst-cli-plugin-react"
+  }
+}
